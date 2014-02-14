@@ -21,7 +21,7 @@ The original code proposes three modes to run the library:
 
 This complicates the code with  __metaclass__  and conditionally injecting methods.
 It is desired to simplify that by keeping only the best performant of the variants.
-This experiment benchmarks the differences between the three variants, and is referenced in euclid3 issue `#3`_
+This experiment benchmarks the differences between the three variants, and is referenced in https://github.com/euclid3/euclid3/issues/3
 
-.. #3: https://github.com/euclid3/euclid3/issues/3
+
 
