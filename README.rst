@@ -11,8 +11,8 @@ short entry in this file with a description.
 Experiments
 ===========
 
-benchmark_slots_and_swizzle_modes
----------------------------------
+01_benchmark_slots_and_swizzle_modes
+------------------------------------
 
 The original code proposes three modes to run the library:
 	- use python slots, don't support swizzle for set operations (default)
@@ -23,8 +23,8 @@ This complicates the code with  __metaclass__  and conditionally injecting metho
 It is desired to simplify that by keeping only the best performant of the variants.
 This experiment benchmarks the differences between the three variants, and is referenced in https://github.com/euclid3/euclid3/issues/3
 
-benchmark_simpler_f06655d
--------------------------
+02_benchmark_simpler_f06655d
+----------------------------
 
 Benchmarking before and after the refactor proposed in https://github.com/euclid3/euclid3/issues/3
 
