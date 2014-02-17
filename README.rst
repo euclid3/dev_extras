@@ -34,3 +34,13 @@ Benchmarking before and after the refactor proposed in https://github.com/euclid
 
 Data colected in simpler_f06655d.ods.
 All the operations exercised in the benchmark are faster after the refactor.
+
+03_benchmark_determinant
+------------------------
+
+cocos.euclid has a different implementation for Matrix3 determinant and inverse.
+Benmarching shows that the cocos version is a bit faster.
+As an aside, in those opers py3.3 is noticeably slower than py2.6, around a 40% slower
+Linked to https://github.com/euclid3/euclid3/issues/5
+
+ 
