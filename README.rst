@@ -23,5 +23,14 @@ This complicates the code with  __metaclass__  and conditionally injecting metho
 It is desired to simplify that by keeping only the best performant of the variants.
 This experiment benchmarks the differences between the three variants, and is referenced in https://github.com/euclid3/euclid3/issues/3
 
+benchmark_simpler_f06655d
+-------------------------
 
+Benchmarking before and after the refactor proposed in https://github.com/euclid3/euclid3/issues/3
 
+	- get rid of modes
+	- eliminate __metaclass__
+	- implement swizzle (read only) using properties
+
+Data colected in simpler_f06655d.ods.
+All the operations exercised in the benchmark are faster after the refactor.
