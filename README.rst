@@ -43,4 +43,4 @@ Benchmarking shows that the cocos version is a bit faster.
 As an aside, in those opers py3.3 is noticeably slower than py2.6, around a 40% slower
 Linked to https://github.com/euclid3/euclid3/issues/5
 
- 
+Update 2020: py3.8 is around 20% faster than py2.7 in matrix determinant and inverse.

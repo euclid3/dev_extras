@@ -4,7 +4,9 @@ The euclid.py from euclid3\euclid3 , 2014 04 12, sha=0e5ffd is copied and edited
     euclid_slots.py : no change, _use_slots = True and _enable_swizzle_set = False
 	euclid_no_slots.py : _use_slots = False , _enable_swizzle_set = False
 	euclid_swizzle_set : _use_slots = True , _enable_swizzle_set = True
-	
+Update 2020: added
+	euclid_2020.py : version 0.2.0
+
 Then added
 	benchmark_Vector2.py
 	benchmark_Vector3.py
@@ -21,3 +23,6 @@ Results:
 
 Decision:
 	Keep the _use_slots codepath, nuke the others
+
+Update 2020:
+Benchmarks run with py 2.7.1 and 3.8.3, stats compiled in mode_stats_2020.ods

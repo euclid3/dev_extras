@@ -23,7 +23,8 @@ def inverse_matrix3(module_name):
     return min(times) / repeats
 
 
-variants = [ 'euclid_cd2331', 'euclid_cocos',]
+variants = [ 'euclid_cd2331', 'euclid_cocos',
+             "euclid_2020"]
 headers = [ 'testbed',
             'determinant_matrix3',
             'inverse_matrix3',

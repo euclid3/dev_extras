@@ -63,7 +63,8 @@ def mul_v3(module_name):
     return min(times) / repeats
 
 
-variants = [ 'euclid_slots', 'euclid_no_slots', 'euclid_swizzle_set' ]
+variants = [ 'euclid_slots', 'euclid_no_slots', 'euclid_swizzle_set',
+             "euclid_2020"]
 headers = [ 'testbed',
             'instantiation',
             'index_read_access',
